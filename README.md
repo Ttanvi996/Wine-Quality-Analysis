@@ -1,7 +1,6 @@
 ## Project Overview
 
-* This project analyzes the Red Wine Quality dataset and builds machine learning models to classify whether a wine is high quality or not.
-* The workflow includes data cleaning, exploratory data analysis (EDA), feature engineering, model training, and evaluation.
+* This project analyzes the Red Wine Quality dataset and builds machine learning models to classify whether a wine is high quality or not. The workflow includes data cleaning, exploratory data analysis (EDA), feature engineering, model training, and evaluation.
 
 ## Dataset Information
 
@@ -85,7 +84,4 @@
 * Experiment with ensemble methods
 
 ## Conclusion
-* This project applies a complete machine learning workflow to a structured classification problem.
-* After evaluating multiple models, XGBoost achieved the strongest validation performance.
-* The results demonstrate the impact of preprocessing, feature scaling, and model selection on predictive accuracy.
-* Overall, the project provides practical insight into building and evaluating ML models on tabular datasets.
+* This project applies a complete machine learning workflow to a structured classification problem. After evaluating multiple models, XGBoost achieved the strongest validation performance. The results demonstrate the impact of preprocessing, feature scaling, and model selection on predictive accuracy. Overall, the project provides practical insight into building and evaluating ML models on tabular datasets.
