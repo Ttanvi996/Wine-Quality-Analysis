@@ -3,16 +3,12 @@
 * This project analyzes the Red Wine Quality dataset and builds machine learning models to classify whether a wine is high quality or not.
 * The workflow includes data cleaning, exploratory data analysis (EDA), feature engineering, model training, and evaluation.
 
----
-
 ## Dataset Information
 
 * **Dataset:** `Red_wine.csv`
 * **Total Samples:** 1,599
 * **Features:** 11 numerical physicochemical attributes (acidity, sugar, chlorides, pH, sulphates, alcohol, etc.)
 * **Target Variable:** `quality`
-
----
 
 ## Problem Formulation
 
@@ -26,8 +22,6 @@
 
 * This allows the models to focus on predicting whether a wine is considered “good” quality or not.
 
----
-
 ## Data Preprocessing
 
 * Checked dataset structure and summary statistics to understand feature ranges.
@@ -38,8 +32,6 @@
   * **80% training**
   * **20% testing**
 * Applied **MinMax Scaling** to normalize features (helps models like SVM and Logistic Regression).
-
----
 
 ## Exploratory Data Analysis (EDA)
 
@@ -53,8 +45,6 @@
 * Many chemical features show moderate correlation with each other.
 * The dataset has more mid-quality wines than extreme low/high quality wines.
 
----
-
 ## Models Implemented
 
 * Logistic Regression
@@ -65,15 +55,12 @@
 
 * Models were evaluated using ROC-AUC and classification metrics.
 
----
 
 ## Evaluation Summary
 
 * Compared training vs validation ROC-AUC to understand generalization.
 * XGBoost achieved the strongest validation performance among the tested models.
 * Final evaluation includes accuracy, precision, recall, and F1-score for the best model.
-
----
 
 ## Tools & Technologies
 
@@ -83,15 +70,11 @@
 * Scikit-learn
 * XGBoost
 
----
-
 ## Key Insights
 
 * Feature scaling improves model stability for distance-based and margin-based models.
 * Tree-based models (XGBoost) perform strongly on structured tabular datasets.
 * Alcohol and sulphates are among the more informative features for predicting quality.
-
----
 
 ## Future Improvements
 
@@ -101,12 +84,8 @@
 * Try handling class imbalance (SMOTE, class weights)
 * Experiment with ensemble methods
 
----
-
 ## Conclusion
-
-* The final results show that XGBoost performs best for this binary wine quality classification task.
-
-
-
-If your bullets STILL don’t appear after pasting this, then your README is likely being treated as a code block (triple backticks somewhere) or your file isn’t actually named `README.md`. If you tell me whether you’re editing in GitHub UI or VS Code, I’ll pinpoint it fast.
+* This project applies a complete machine learning workflow to a structured classification problem.
+* After evaluating multiple models, XGBoost achieved the strongest validation performance.
+* The results demonstrate the impact of preprocessing, feature scaling, and model selection on predictive accuracy.
+* Overall, the project provides practical insight into building and evaluating ML models on tabular datasets.
