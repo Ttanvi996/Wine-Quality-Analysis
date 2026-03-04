@@ -40,7 +40,7 @@ This project analyzes the Red Wine Quality dataset and builds machine learning m
 
 ### Key Observations
 
-* Alcohol content generally increases with wine quality.
+* Alcohol content increases with wine quality.
 * Many chemical features show moderate correlation with each other.
 * The dataset has more mid-quality wines than extreme low/high quality wines.
 
@@ -53,8 +53,6 @@ This project analyzes the Red Wine Quality dataset and builds machine learning m
 * Support Vector Classifier (RBF Kernel)
 
 * Models were evaluated using ROC-AUC and classification metrics.
-
-
 ## Evaluation Summary
 
 * Compared training vs validation ROC-AUC to understand generalization.
